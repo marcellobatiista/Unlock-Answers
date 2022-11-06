@@ -12,4 +12,4 @@ fetch('https://raw.githubusercontent.com/GSRHackZ/Brainly-LockPick/main/lockPick
     sc.setAttribute("type", "text/javascript");
     document.head.appendChild(sc);
 });
-location.reload();
+setTimeout(function () {location.reload()},500);
