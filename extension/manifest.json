@@ -1,0 +1,31 @@
+{
+  "name": "Unlock Answer",
+  "manifest_version": 3,
+  "author": "https://github.com/marcellobatiista",
+  "version": "1.0.0",
+  "description": "Unlock Answer",
+
+  "action": {
+    "default_icon": {
+      "16": "assets/icon16.png",
+      "48": "assets/icon48.png",
+      "128": "assets/icon128.png"
+    }
+  },
+
+  "icons": {
+    "16": "assets/icon16.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  },
+
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "webRequest"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  }
+}
